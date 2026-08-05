@@ -1,0 +1,42 @@
+article div:has(video) {
+    width: 90%;
+    max-width: 70dvh;
+}
+
+section a:last-child {
+    text-align: center;
+    margin-left: auto;
+    margin-right: 5dvw;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.desarrollo {
+    border: solid 1px #7d2d2d;
+    color: #c76363;
+    user-select: none;
+    font-size: clamp(10px, 2dvh, 2.5dvw);
+    width: fit-content;
+}
+
+video {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+
+
+
+.dowland {
+    background: linear-gradient(
+to bottom,
+#D7B06B 0%,
+#B8833E 45%,
+#8A5B28 100%
+);
+color: #F7E7C4;
+border: 1px solid #E2C07A;
+font-size: 2dvh;
+
+}

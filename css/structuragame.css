@@ -1,0 +1,62 @@
+.presentacion {
+    width: 100%;
+}
+
+.presentacion div a:first-child {
+    display: flex;
+    align-items: center;
+    font-size: 2dvh;
+    color: #ce9b5c;
+}
+
+
+#flecha {
+    font-size: 3dvh;
+}
+
+
+.m {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 5px;
+    color: #ce9b5c;
+    font-family: sans-serif;
+    margin-left: 3dvh;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin-top: 10px;
+}
+
+article div:has(img) {
+    
+    width: 35dvh;
+
+}
+
+article div img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+
+}
+
+
+
+article h1{
+    font-size: clamp(1rem, 11dvw,10dvh);
+    background-color: aliceblue;
+}
+
+article p {
+    color: #fff;
+    width: 80%;
+    text-align: center;
+    margin: 10px;
+    font-size: 3dvh;
+}
