@@ -1,14 +1,22 @@
+html {
+    scroll-behavior: smooth;
+
+}
+
+
 article div:has(video) {
     width: 90%;
     max-width: 70dvh;
+    
 }
 
-section a:last-child {
+section a:last-child, button {
     text-align: center;
     margin-left: auto;
     margin-right: 5dvw;
     border-radius: 5px;
     padding: 5px;
+
 }
 
 .desarrollo {
@@ -17,6 +25,7 @@ section a:last-child {
     user-select: none;
     font-size: clamp(10px, 2dvh, 2.5dvw);
     width: fit-content;
+
 }
 
 video {
@@ -38,5 +47,68 @@ to bottom,
 color: #F7E7C4;
 border: 1px solid #E2C07A;
 font-size: 2dvh;
+width: 15dvh;
 
+}
+
+#dowland {
+    margin: 0 auto;
+    font-size: 3dvh;
+
+    width: fit-content;
+}
+
+details {
+    width: 98%;
+    color: #F7E7C4;
+    display: flex;
+    margin: 10px auto;
+    flex-direction: column;
+    border-radius: 5px;
+    font-size: 3dvh;
+    border: 1px solid #d4a35a6f ;
+    
+
+}
+
+details summary{
+    background: linear-gradient(
+    to bottom,
+    #D7B06B 0%,
+    #B8833E 45%,
+    #8A5B28 100%
+    );
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    border:1px #d4a35a6f solid;
+}
+
+ol {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+     
+}
+
+article li {
+    list-style-position: inside;
+    color: #fff;
+    
+    overflow: hidden;
+}
+
+article li span {
+    color:#0f0;
+}
+
+li img {
+    margin: 10px auto;
+    width: 90%;
+    height: 100%;
+}
+
+#dowland a{
+    margin: auto;
+    color: #F7E7C4;
 }
